@@ -343,13 +343,13 @@
                             <img src="./assets/icons/comment.png" class="h-4 w-4" alt="">
                         </div>
                     </div>
-    
                     <div
                         class=" py-1 text-[#B8BBBF] text-lg font-semibold flex flex-row justify-around items-center border-t-[1px] border-white/30">
-
                         <div
-                            class="flex flex-row items-center gap-2 px-7 py-1.5 hover:bg-[#3A3B3C] cursor-pointer rounded-lg">
-                            <div class="ractions w-10 h-10 flex flex-row ">
+                            class="relative group flex flex-row items-center gap-2 px-7 py-1.5 hover:bg-[#3A3B3C] cursor-pointer rounded-lg">
+                            <img src="./images/likebox.png" class="w-8 h-8" alt="">
+                            <p>Like</p>
+                            <div class="absolute group-hover:block -bottom-14 px-5 py-3 z-10 top-3 w-10 h-10 rounded-full flex flex-row">
                                 <img src="./images/like.gif" alt="" class="">
                                 <img src="./images/love.gif" alt="" class="">
                                 <img src="./images/care.gif" alt="" class="">
@@ -358,8 +358,6 @@
                                 <img src="./images/sad.gif" alt="" class="">
                                 <img src="./images/angry.gif" alt="" class="">
                             </div>
-                            <img src="./images/likebox.png" class="w-8 h-8" alt="">
-                            <p>Like</p>
                         </div>
                         <div
                             class="flex flex-row items-center gap-2 px-7 py-2 hover:bg-[#3A3B3C] cursor-pointer rounded-lg">
@@ -374,15 +372,32 @@
                     </div>
                 </div>
             </div>
-            <!-- contant -->
-            <div class="w-3/12">
+            <!-- right side -->
+            <div class="w-3/12 m-2 overflow-hidden overflow-y-auto">
+                <div class="flex flex-row justify-between items-center m-2">
+                    <h3 class="text-[#9DA0A4]">Your Pages and profile</h3>
+                    <img src="./images/more.png" alt="" class="w-7 h-7 rounded-full p-2 hover:bg-[#303031]">
+                </div>
+                <a href="#" class="flex flex-row gap-7 p-2 w-72 rounded-md  hover:bg-[#303031]">
+                    <img src="./images/averter.png" alt="" class="rounded-full h-7 w-7">
+                    <p class="text-white">
+                        Manirul Islam
+                    </p>
+                </a>
+                <div href="#" class="flex flex-row gap-7 p-2 m-2 w-72 rounded-md  hover:bg-[#303031]">
+                    <img src="./images/user.png" alt="" class="rounded-full h-7 w-7">
+                    <p class="text-white">
+                        Switch to pages
+                    </p>
+                </div>
+                <div href="#" class="flex flex-row gap-7 p-2 m-2 w-72 rounded-md  hover:bg-[#303031]">
+                    <img src="./images/megaphone.png" alt="" class="rounded-full h-7 w-7">
+                    <p class="text-white">
+                        Create Promotions
+                    </p>
+                </div>
+                <hr class="text-[#3E4042]">
                 <div class="w-3/12 pt-3 ml-3">
-                    <a href="#" class="flex flex-row gap-7 p-2 w-72 rounded-md  hover:bg-[#303031]">
-                        <img src="./images/averter.png" alt="" class="rounded-full h-7 w-7">
-                        <p class="text-white">
-                            Manirul Islam
-                        </p>
-                    </a>
                     <a href="#" class="flex flex-row gap-7 p-2 w-72 rounded-md  hover:bg-[#303031]">
                         <img src="./images/friend.png" alt="" class="rounded-full h-7 w-7">
                         <p class="text-white">
@@ -442,5 +457,4 @@
         </main>
     </section>
 </body>
-
 </html>
