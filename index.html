@@ -6,9 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Facebook</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
 </head>
 
-<body>
+<body class="font-family: " Roboto", sans-serif;">
     <!-- header section -->
     <header class="bg-[#242526]">
         <nav class="px-5 h-14 flex">
@@ -432,7 +437,7 @@
                         Create Promotions
                     </p>
                 </div>
-                <hr class="text-[#3E4042]">
+                <hr class="text-[#483B3D] text-sm w-72">
                 <!-- find requst section -->
                 <div class="py-3 px-1">
                     <div class="flex flex-row justify-between">
@@ -444,8 +449,8 @@
                         </div>
                     </div>
                     <a href="" class="">
-                        <div class="flex flex-col items-center gap-7 p-2 m-2 w-72 rounded-md  hover:bg-[#303031]">
-                            <div class="flex flex-row items-center">
+                        <div class="flex flex-col items-center gap-3 p-2 m-2 w-72 rounded-md  hover:bg-[#303031]">
+                            <div class="flex flex-row items-center gap-5">
                                 <img src="./images/mofajjol.png" alt="" class="rounded-full h-7 w-7">
                                 <div class="flex flex-col items-center">
                                     <p class="text-[#A4A6AA] text-base">
@@ -458,77 +463,301 @@
                                     <img src="./images/blue.png" alt="" class="h-3 w-3">
                                 </div>
                             </div>
-                            <a href="" class="">
-                                <button class="text-[#178FEB] h-3 w-5 px-3 py-5">
-                                    <p class="text-white"></p>
+                            <a href="" class="flex flex-row gap-5">
+                                <button class="bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                                    Confirm
+                                </button>
+                                <button class="bg-[#444546] text-white font-bold py-2 px-4 rounded">
+                                    Delete
                                 </button>
                             </a>
                         </div>
-                        <div class="">
-                            
-                            <a href="" class="">
-                                <button class="">
-
-                                </button>
-                            </a>
+                        <hr class="w-72 text-[#483B3D]">
+                        <!-- birthdays -->
+                        <div class="flex flex-row justify-between">
+                            <div class="py-1">
+                                <h3 class="text-[#A4A6AA] text-lg font-bold">Birthdays</h3>
+                            </div>
                         </div>
+                        <a href="" class="">
+                            <div class="flex flex-col items-center gap-3 p-2 m-2 w-72 rounded-md  hover:bg-[#303031]">
+                                <div class="flex flex-wrap flex-row gap-5">
+                                    <img src="./images/birthday.png" alt="" class=" h-7 w-7">
+                                    <div class="flex flex-col ">
+                                        <p class="text-[#A4A6AA] text-base font-medium">
+                                            Mofajjol Hossain and 10 others
+                                        </p>
+                                        <p class="text-[#A4A6AA] text-sm">have birthday today.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <hr class="w-72 text-[#483B3D]">
+                        </a>
                     </a>
                 </div>
+                <div class="flex flex-row justify-between w-full items-center px-2">
+                    <h3 class="text-[#9DA0A4] text-lg font-semibold">Contacts</h3>
+                    <div class="flex flex-row justify-end gap-2">
+                        <img src="./images/search.png" alt="" class="w-7 h-7 rounded-full p-2 hover:bg-[#303031]">
+                        <img src="./images/more.png" alt="" class="w-7 h-7 rounded-full p-2 hover:bg-[#303031]">
+                    </div>
+                </div>
+                <!-- live contants -->
                 <div class="w-3/12 pt-3 ml-3">
                     <a href="#" class="flex flex-row gap-7 p-2 w-72 rounded-md  hover:bg-[#303031]">
-                        <img src="./images/friend.png" alt="" class="rounded-full h-7 w-7">
+                        <div class="relative">
+                            <img src="./images/my2.png" alt="" class="h-7 w-7 rounded-full">
+                            <div
+                                class="absolute bg-green-600 text-white text-xs px-1  py-1 rounded-full -bottom-1 -right-1">
+                            </div>
+                        </div>
                         <p class="text-white">
-                            Friends
+                            Anower Hossain
                         </p>
                     </a>
                     <a href="#" class="flex flex-row gap-7 p-2 w-72 rounded-md  hover:bg-[#303031]">
-                        <img src="./images/feeds.png" alt="" class="rounded-full h-7 w-7">
+                        <div class="relative">
+                            <img src="./images/my3.png" alt="" class="h-7 w-7 rounded-full">
+                            <div
+                                class="absolute bg-green-600 text-white text-xs px-1  py-1 rounded-full -bottom-1 -right-1">
+                            </div>
+                        </div>
                         <p class="text-white">
-                            Feeds
+                            Mofajjol Hossain
                         </p>
                     </a>
                     <a href="#" class="flex flex-row gap-7 p-2 w-72 rounded-md  hover:bg-[#303031]">
-                        <img src="./images/memories.png" alt="" class="rounded-full h-7 w-7">
+                        <div class="relative">
+                            <img src="./images/my1.png" alt="" class="h-7 w-7 rounded-full">
+                            <div
+                                class="absolute bg-green-600 text-white text-xs px-1  py-1 rounded-full -bottom-1 -right-1">
+                            </div>
+                        </div>
                         <p class="text-white">
-                            Memories
+                            Monirul Islam
                         </p>
                     </a>
                     <a href="#" class="flex flex-row gap-7 p-2 w-72 rounded-md  hover:bg-[#303031]">
-                        <img src="./images/Groups.png" alt="" class="rounded-full h-7 w-7">
+                        <div class="relative">
+                            <img src="./images/my2.png" alt="" class="h-7 w-7 rounded-full">
+                            <div
+                                class="absolute bg-green-600 text-white text-xs px-1  py-1 rounded-full -bottom-1 -right-1">
+                            </div>
+                        </div>
                         <p class="text-white">
-                            Groups
+                            M M Islam
                         </p>
                     </a>
                     <a href="#" class="flex flex-row gap-7 p-2 w-72 rounded-md  hover:bg-[#303031]">
-                        <img src="./images/marketpaces.png" alt="" class="rounded-full h-7 w-7">
+                        <div class="relative">
+                            <img src="./images/mofajjol.png" alt="" class="h-7 w-7 rounded-full">
+                            <div
+                                class="absolute bg-green-600 text-white text-xs px-1  py-1 rounded-full -bottom-1 -right-1">
+                            </div>
+                        </div>
                         <p class="text-white">
-                            Marketplace
+                            Mofajjol Hossain
                         </p>
                     </a>
                     <a href="#" class="flex flex-row gap-7 p-2 w-72 rounded-md  hover:bg-[#303031]">
-                        <img src="./images/add maneger.png" alt="" class="rounded-full h-7 w-7">
+                        <div class="relative">
+                            <img src="./images/manik.png" alt="" class="h-7 w-7 rounded-full">
+                            <div
+                                class="absolute bg-green-600 text-white text-xs px-1  py-1 rounded-full -bottom-1 -right-1">
+                            </div>
+                        </div>
                         <p class="text-white">
-                            Ads Manager
+                            Manik Miah
                         </p>
                     </a>
                     <a href="#" class="flex flex-row gap-7 p-2 w-72 rounded-md  hover:bg-[#303031]">
-                        <img src="./images/saved.png" alt="" class="rounded-full h-7 w-7">
+                        <div class="relative">
+                            <img src="./images/helal.png" alt="" class="h-7 w-7 rounded-full">
+                            <div
+                                class="absolute bg-green-600 text-white text-xs px-1  py-1 rounded-full -bottom-1 -right-1">
+                            </div>
+                        </div>
                         <p class="text-white">
-                            Saved
+                            Helal Khan
                         </p>
                     </a>
                     <a href="#" class="flex flex-row gap-7 p-2 w-72 rounded-md  hover:bg-[#303031]">
-                        <img src="./images/videos.png" alt="" class="rounded-full h-7 w-7">
+                        <div class="relative">
+                            <img src="./images/mofajjol-icon.png" alt="" class="h-7 w-7 rounded-full">
+                            <div
+                                class="absolute bg-green-600 text-white text-xs px-1  py-1 rounded-full -bottom-1 -right-1">
+                            </div>
+                        </div>
                         <p class="text-white">
-                            Video
+                            Mofajjol Khan
                         </p>
                     </a>
                     <a href="#" class="flex flex-row gap-7 p-2 w-72 rounded-md  hover:bg-[#303031]">
-                        <img src="./images/event.png" alt="" class="rounded-full h-7 w-7">
+                        <div class="relative">
+                            <img src="./images/my1.png" alt="" class="h-7 w-7 rounded-full">
+                            <div
+                                class="absolute bg-green-600 text-white text-xs px-1  py-1 rounded-full -bottom-1 -right-1">
+                            </div>
+                        </div>
                         <p class="text-white">
-                            Events
+                            Helal Khan
                         </p>
                     </a>
+                    <a href="#" class="flex flex-row gap-7 p-2 w-72 rounded-md  hover:bg-[#303031]">
+                        <div class="relative">
+                            <img src="./images/my3.png" alt="" class="h-7 w-7 rounded-full">
+                            <div
+                                class="absolute bg-green-600 text-white text-xs px-1  py-1 rounded-full -bottom-1 -right-1">
+                            </div>
+                        </div>
+                        <p class="text-white">
+                            Mofajjol
+                        </p>
+                    </a>
+                    <a href="#" class="flex flex-row gap-7 p-2 w-72 rounded-md  hover:bg-[#303031]">
+                        <div class="relative">
+                            <img src="./images/manik-icon.png" alt="" class="h-7 w-7 rounded-full">
+                            <div
+                                class="absolute bg-green-600 text-white text-xs px-1  py-1 rounded-full -bottom-1 -right-1">
+                            </div>
+                        </div>
+                        <p class="text-white">
+                            Mofajjol Khan
+                        </p>
+                    </a>
+                    <a href="#" class="flex flex-row gap-7 p-2 w-72 rounded-md  hover:bg-[#303031]">
+                        <div class="relative">
+                            <img src="./images/helal.png" alt="" class="h-7 w-7 rounded-full">
+                            <div
+                                class="absolute bg-green-600 text-white text-xs px-1  py-1 rounded-full -bottom-1 -right-1">
+                            </div>
+                        </div>
+                        <p class="text-white">
+                            Helal Khan
+                        </p>
+                    </a>
+                    <a href="#" class="flex flex-row gap-7 p-2 w-72 rounded-md  hover:bg-[#303031]">
+                        <div class="relative">
+                            <img src="./images/my2.png" alt="" class="h-7 w-7 rounded-full">
+                            <div
+                                class="absolute bg-green-600 text-white text-xs px-1  py-1 rounded-full -bottom-1 -right-1">
+                            </div>
+                        </div>
+                        <p class="text-white">
+                            Mofajjol
+                        </p>
+                    </a>
+                    <a href="#" class="flex flex-row gap-7 p-2 w-72 rounded-md  hover:bg-[#303031]">
+                        <div class="relative">
+                            <img src="./images/manik.png" alt="" class="h-7 w-7 rounded-full">
+                            <div
+                                class="absolute bg-green-600 text-white text-xs px-1  py-1 rounded-full -bottom-1 -right-1">
+                            </div>
+                        </div>
+                        <p class="text-white">
+                            Mofajjol Khan
+                        </p>
+                    </a>
+                    <a href="#" class="flex flex-row gap-7 p-2 w-72 rounded-md  hover:bg-[#303031]">
+                        <div class="relative">
+                            <img src="./images/averter.png" alt="" class="h-7 w-7 rounded-full">
+                            <div
+                                class="absolute bg-green-600 text-white text-xs px-1  py-1 rounded-full -bottom-1 -right-1">
+                            </div>
+                        </div>
+                        <p class="text-white">
+                            Monirul Islam
+                        </p>
+                    </a>
+                    <a href="#" class="flex flex-row gap-7 p-2 w-72 rounded-md  hover:bg-[#303031]">
+                        <div class="relative">
+                            <img src="./images/helal.png" alt="" class="h-7 w-7 rounded-full">
+                            <div
+                                class="absolute bg-green-600 text-white text-xs px-1  py-1 rounded-full -bottom-1 -right-1">
+                            </div>
+                        </div>
+                        <p class="text-white">
+                            Helal Khan
+                        </p>
+                    </a>
+                    <a href="#" class="flex flex-row gap-7 p-2 w-72 rounded-md  hover:bg-[#303031] mb-2">
+                        <div class="relative">
+                            <img src="./images/mofajjol-icon.png" alt="" class="h-7 w-7 rounded-full">
+                            <div
+                                class="absolute bg-green-600 text-white text-xs px-1  py-1 rounded-full -bottom-1 -right-1">
+                            </div>
+                        </div>
+                        <p class="text-white">
+                            Mofajjol Khan
+                        </p>
+                    </a>
+                </div>
+                <hr class="text-[#483B3D] text-sm w-72">
+                <!-- group conversations -->
+                <div class="flex flex-row justify-between w-full items-center px-2">
+                    <h3 class="text-[#9DA0A4] text-lg font-semibold mt-2">Group Conversations</h3>
+                </div>
+                <!-- join group -->
+                <div class="my-1">
+                    <div class="flex flex-row gap-7 p-2 w-72 rounded-md  hover:bg-[#303031] my-1">
+                        <div class="relative">
+                            <img src="./images/my2.png" alt="" class="relative h-7 w-7 rounded-full">
+                            <div class="absolute -bottom-3 -left-1 h-max">
+                                <img src="./images/averter.png" alt="" class=" h-6 w-7 rounded-full">
+                            </div>
+                            <div
+                                class="absolute bg-green-600 text-white text-xs px-1  py-1 rounded-full -bottom-1 -right-1">
+                            </div>
+                        </div>
+                        <p class="text-white">
+                            Anower Hossain
+                        </p>
+                    </div>
+                    <div class="flex flex-row gap-7 p-2 w-72 rounded-md  hover:bg-[#303031] my-1">
+                        <div class="relative">
+                            <img src="./images/my2.png" alt="" class="relative h-7 w-7 rounded-full">
+                            <div class="absolute -bottom-3 -left-1 h-max">
+                                <img src="./images/manik-icon.png" alt="" class=" h-6 w-7 rounded-full">
+                            </div>
+                            <div
+                                class="absolute bg-green-600 text-white text-xs px-1  py-1 rounded-full -bottom-1 -right-1">
+                            </div>
+                        </div>
+                        <p class="text-white">
+                            Manik Miah
+                        </p>
+                    </div>
+                    <div class="flex flex-row gap-7 p-2 w-72 rounded-md  hover:bg-[#303031] my-1">
+                        <div class="relative">
+                            <img src="./images/mofajjol-icon.png" alt="" class="relative h-7 w-7 rounded-full">
+                            <div class="absolute -bottom-3 -left-1 h-max">
+                                <img src="./images/helal.png" alt="" class=" h-6 w-7 rounded-full">
+                            </div>
+                            <div
+                                class="absolute bg-green-600 text-white text-xs px-1  py-1 rounded-full -bottom-1 -right-1">
+                            </div>
+                        </div>
+                        <p class="text-white">
+                            Helal Khan
+                        </p>
+                    </div>
+                </div>
+                <!-- create group -->
+                <div class="flex flex-row gap-7 p-2 w-72 rounded-md  hover:bg-[#303031] my-2">
+                    <div class="relative rounded-full bg-[#444546]">
+                        <img src="./images/add.png" alt="" class="h-7 w-7 rounded-full">
+                    </div>
+                    <p class="text-white">
+                        Create new group
+                    </p>
+                </div>
+                <div class="rounded bg-[#444546 w-min]">
+
+                </div>
+                <div class="flex flex-row justify-end mr-2">
+                    <button class="bg-[#4E4F50] text-white font-bold p-4 rounded-full">
+                        <img src="./images/write.png" alt="" class="w-7 h-7 ">
+                    </button>
                 </div>
             </div>
         </main>
